@@ -1,7 +1,7 @@
 const os = require('node:os')
 
-console.log('Información del Sistema Operativo')
-console.log('------------------')
+console.log('Información del Sistema Operativo');
+console.log('------------------');
 
 console.log('Nombre del Sistema Operativo', os.platform())
 console.log('Versión del Sistema Operativo', os.release())
